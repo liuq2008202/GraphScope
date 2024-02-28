@@ -1,0 +1,29 @@
+version: 0.1
+# ignorePaths: ["elections/**/*"]
+words:
+    - graphscope 
+    - jobject
+    - lcom
+    - sssp
+    - assortativity
+    - tparam
+    - varb
+    - postprocess
+    - fnum
+    - nbunch
+    - rapidjson
+    - betweenness
+    - distu
+    - distv
+    - katz
+    - fnum
+    - tricnt
+    - vertexsets
+    - ejoin
+    - minp
+    - maxp
+    - sccid
+    - oldc
+    - oldd
+    - initrank
+
