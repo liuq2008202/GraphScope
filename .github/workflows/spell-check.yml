@@ -11,4 +11,4 @@ jobs:
       - uses: streetsidesoftware/cspell-action@v5
         with:
           incremental_files_only: false
-          config: .cspell.yaml
+          config: .cspell.yml
