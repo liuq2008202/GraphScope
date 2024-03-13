@@ -442,10 +442,10 @@ class Config(Serializable):
             self.kubernetes_launcher.config_file = value
         elif key == "reconnect":
             self.session.reconnect = value
-        elif key == "vineyard_shared_mem":
-            pass
         elif key == "hosts":
             self.hosts_launcher.hosts = value;
+        elif key == "vineyard_shared_mem":
+            pass
         else:
             raise ValueError("Key not recognized: " + key)
 
