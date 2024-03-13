@@ -16,8 +16,8 @@
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=a746c00c" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=135e06be" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css?v=2a6c4383" />
     <link rel="stylesheet" type="text/css" href="../_static/panels-bootstrap.5fd3999ee7762ccc51105388f4a9d115.css?v=45cf7dbc" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css?v=2a6c4383" />
     <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css?v=d290406d" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css?v=36a5483c" />
     <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=e72d9a73" />
@@ -410,12 +410,8 @@ pip3<span class="w"> </span>install<span class="w"> </span>--upgrade<span class=
 <li><p>Local Kubernetes cluster set-up tool (e.g. <a class="reference external" href="https://kind.sigs.k8s.io">Kind</a>)</p></li>
 </ul>
 <p>对于 Windows 和 macOS 的用户，可通过官方文档来安装上述依赖, 并在 Docker 中开启 Kubernetes 功能。
-对于 Ubuntu/CentOS Linux 发行版用户，我们提供了脚本来准备运行时环境。
-您也可以在 Windows 上安装 <a class="reference external" href="https://docs.microsoft.com/zh-cn/windows/wsl/install-win10">WSL2</a> 以使用脚本。</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># run the environment preparing script.</span>
-./scripts/install_deps.sh<span class="w"> </span>--k8s
-</pre></div>
-</div>
+对于 Ubuntu/CentOS Linux 发行版用户，你也可以使用 [Kind](<a class="reference external" href="https://kind.sigs.k8s.io">https://kind.sigs.k8s.io</a>) 部署一个本地的 k8s 集群，Kind 的安装和部署可以参考官网的 [Quick Start](<a class="reference external" href="https://kind.sigs.k8s.io/docs/user/quick-start/">https://kind.sigs.k8s.io/docs/user/quick-start/</a>)。
+您也可以在 Windows 上安装 <a class="reference external" href="https://docs.microsoft.com/zh-cn/windows/wsl/install-win10">WSL2</a> 来模拟 Linux 环境。</p>
 <p>接下来，我们只需要通过 <a class="reference external" href="https://pip.pypa.io/en/stable/">pip</a> 安装 GraphScope 客户端：</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># Requires the latest pip</span>
 pip3<span class="w"> </span>install<span class="w"> </span>--upgrade<span class="w"> </span>pip
